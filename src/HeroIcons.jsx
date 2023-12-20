@@ -6,7 +6,7 @@ export const CartIcon = () => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      dataSlot="icon"
+      dataslot="icon"
       className="w-6 h-6"
     >
       <path
@@ -26,7 +26,7 @@ export const PlusIcon = () => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      dataSlot="icon"
+      dataslot="icon"
       className="w-6 h-6"
     >
       <path
@@ -46,7 +46,7 @@ export const MinusIcon = () => {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      dataSlot="icon"
+      dataslot="icon"
       className="w-6 h-6"
     >
       <path
