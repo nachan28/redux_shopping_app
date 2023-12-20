@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
+import cartItems from "../../cartItems";
 
-// 買い物かごの初期化
 const initialState = {
-  cartItem: [],
+  cartItem: cartItems,
   amount: 0,
   total: 0,
 };
