@@ -12,7 +12,7 @@ const cartSlice = createSlice({
   initialState,
   reducers: {
     clearCart: (state) => {
-      return { cartItem: [], amount: 0, total: 0 };
+      return { cartItems: [], amount: 0, total: 0 };
     },
     removeItem: (state, action) => {
       console.log(action);
